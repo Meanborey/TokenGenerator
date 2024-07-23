@@ -1,0 +1,25 @@
+#spring.application.name=generateToken
+spring:
+  application:
+    name: generateToken
+
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          kangchi:
+#            client-id: kangchi
+#            client-secret: {bcrypt}$2a$12$HuORrYYsC0M3.XtOefeuYO7iN/foUpSQTDRtKvKcKt/ylzZLiYFn6
+#            scope: openid
+#            authorization-grant-type: client_credentials
+#            client-name: Kangchi
+#        provider:
+#          kangchi:
+#            authorization-uri: http://localhost:9055/oauth2/authorize
+#            token-uri: http://localhost:9055/oauth2/token
+#            user-info-uri: http://localhost:9055/userinfo
+#            jwk-set-uri: http://localhost:9055/jwks
+#            user-name-attribute: id
+#
+server:
+  port: 9090
